@@ -1,0 +1,16 @@
+1. BIMsurfer/examples/gltf_app.js
+
+- line3: added labelText = ''. labelText is the value of an element's text on left list.
+- line15: added labelText to setSelection function as a parameter
+- line 86 ~ 94: get components' name on left panel
+- line 99 ~ 120: change color and show popup dialog
+
+Description: it is for set label text into component when it is selected
+
+- Line 19 - line 21: import uncertainty lists with component names
+
+- line 83 - line 92: mapping color to a component when proper one is selected
+
+2. BIMsurfer/bimsurfer/src/StaticTreeRenderer.js
+
+- line 120: add evt.target.textContent(it is a selected label name)
